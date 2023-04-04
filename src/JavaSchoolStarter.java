@@ -5,7 +5,7 @@ import java.util.stream.Collectors;
 
 public class JavaSchoolStarter {
     private List<Map<String, Object>> table = new ArrayList<>();
-    private final String[] KEYS = {"id", "lastName", "age", "cost", "active"};
+    private final String[] KEYS = {"id", "lastName", "age", "cost", "active"}; // keys
 
     public JavaSchoolStarter() {
     }
