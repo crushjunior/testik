@@ -8,7 +8,7 @@ public class Main {
 
         List<Map<String, Object>> result1;
         try {
-            result1 = starter.execute("INSERT VALUES 'lastName'='Федоров', 'id'=3, 'age'=10, 'active'=false");
+            result1 = starter.execute("INSERT VALUES 'lastName'='Федоров', 'id'=3, 'age'=10, 'active'=false/true);
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
